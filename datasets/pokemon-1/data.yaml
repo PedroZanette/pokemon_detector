@@ -1,0 +1,17 @@
+names:
+- charizard
+- crobat
+- flygon
+- gardevoir
+- pikachu
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: pokemon-axhbs
+  url: https://universe.roboflow.com/estudos-1cg6n/pokemon-axhbs/dataset/1
+  version: 1
+  workspace: estudos-1cg6n
+train: train/images
+val: val/images
+# test: test/images  # opcional, só se eu tiver isso. Mas não tenho
+

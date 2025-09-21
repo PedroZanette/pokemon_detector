@@ -1,0 +1,5 @@
+Execute:
+yolo detect train model=yolov8n.pt data=datasets/pokemon-1/data.yaml imgsz=640 epochs=20 batch=8 device=cpu workers=0
+
+para algum exemplo:
+yolo detect predict model=runs/detect/train/weights/best.pt source=app/pikachu.jpg conf=0.35
